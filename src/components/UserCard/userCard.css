@@ -1,0 +1,42 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 309px;
+    height: 488px;
+    border-radius: 21px;
+    background-color: rgba(246, 246, 246, 1);
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.user-details {
+    margin-top: 41px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-details p {
+    margin-bottom: 3px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.user-description {
+    margin: 0 30px 30px 30px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.heart-icon {
+    margin-left: 6px;
+}

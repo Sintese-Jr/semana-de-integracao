@@ -1,0 +1,31 @@
+.find-section {
+    margin-top: 42px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-section h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.card-wrapper {
+    width: 80vw;
+    margin-top: 35px;
+    margin-bottom: 73px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.find-button {
+    width: 308px;
+    height: 56px;
+    border: 1px solid rgba(155, 18, 90, 1);
+    border-radius: 27.5px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(155, 18, 90, 1);
+    font-size: 16px;
+}

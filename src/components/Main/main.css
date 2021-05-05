@@ -1,0 +1,34 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 42px 0;
+}
+
+.title-container {
+    width: 25%;
+}
+
+.title-container h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.title-container button {
+    width: 100%;
+    padding: 17px 17px;
+    border: 1px solid rgba(155, 18, 90, 1);
+    border-radius: 27.5px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(155, 18, 90, 1);
+    font-size: 16px;
+}
+
+.image-container {
+    height: 816px;
+    width: 742px;
+    background-image: url("../../assets/babysitter.png");
+    background-position-x: -140px;
+    background-position-y: -135px;
+}

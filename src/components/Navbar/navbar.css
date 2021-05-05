@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 95px;
+}
+
+.nav-link {
+    padding-right: 32px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-button {
+    padding: 17px 17px;
+    border-radius: 27.5px;
+    border: 1px solid rgba(155, 18, 90, 1);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(155, 18, 90, 1)
+}
+
+.nav-button a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
